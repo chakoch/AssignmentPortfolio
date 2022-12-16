@@ -1,0 +1,107 @@
+  .head {
+    padding: 50px 10px;
+    text-align: center;
+    background: #34568B;
+    text-shadow: 2px 2px #ff0000;
+    color: white;
+    font-size: 50px;
+    font-family: 'Tangerine', serif;
+  }
+
+  .sambild {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Sofia', sans-serif;
+    width: 300px;
+    height: auto;
+    border: 3px solid #ff0000;
+    background: #34568B;
+    padding: 15px 10px;
+    float: right;
+  }
+  
+  .block {
+    text-align: center;
+  }
+  
+  .sambild img {
+   width: 200px;
+   height: auto;
+  }
+  
+  
+  #fot {
+    text-align: center;
+  }
+
+  .sidenav {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .sidenav a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .sidenav a.active {
+    background-color: #34568B;
+    border-radius: 100px;
+    color: white;
+  }
+  
+  .sidenav a:hover:not(.active) {
+    background-color: #ff0000;
+    color: white;
+    border-radius: 100px;
+  }
+  
+  main.texter {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: auto;
+  }
+  
+  .boxar {
+    display: flex;
+    justify-content: center;
+    flex-direction: inherit;
+  }
+  @media screen and (max-width: 700px) {
+    .sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin: 20px;
+    }
+    .sidenav a {float: left;}
+    main.texter {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidenav a {
+      text-align: center;
+      float: none;
+    }
+    .boxar {
+      flex-direction: column;
+      
+    }
+  }
+  
+  #test1, #test2, #test3 {
+    background-color: #f50f0f;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+  }
+  

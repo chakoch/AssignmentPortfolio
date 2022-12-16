@@ -1,0 +1,86 @@
+  .head {
+    padding: 50px 10px;
+    text-align: center;
+    background: #34568B;
+    text-shadow: 2px 2px #ff0000;
+    color: white;
+    font-size: 50px;
+    font-family: 'Tangerine', serif;
+  }
+
+  #info {
+    text-align: center;
+  }
+
+
+  #fot {
+    text-align: center;
+  }
+
+  .lank {
+    padding: 10px;
+  }
+  
+  .socialmedia {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  #mail {
+    border: solid white;
+  }
+
+  #icon {
+    border: solid transparent;
+  }
+
+  #icon2 {
+    border: solid transparent;
+  }
+
+  .sidenav {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidenav a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidenav a.active {
+    background-color: #34568B;
+    border-radius: 100px;
+    color: white;
+  }
+  
+  .sidenav a:hover:not(.active) {
+    background-color: #ff0000;
+    border-radius: 100px;
+    color: white;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin: 20px;
+    }
+    .sidenav a {float: left;}
+    main.texter {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidenav a {
+      text-align: center;
+      float: none;
+    }
+  }
